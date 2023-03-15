@@ -1,0 +1,21 @@
+data:
+  dataset:
+    office:
+      num_classes: 31
+      iterations_per_epoch: 10
+      acc_metric: total_mean
+
+    office-home:
+      num_classes: 65
+      iterations_per_epoch: 50
+      acc_metric: total_mean
+
+    image-clef:
+      num_classes: 12
+      iterations_per_epoch: 10
+      acc_metric: total_mean
+
+    visda:
+      num_classes: 12
+      iterations_per_epoch: 100
+      acc_metric: class_mean
